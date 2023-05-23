@@ -24,7 +24,7 @@ router.post('/adduser',async(req,res)=>{
           if(password!==confirmpassword){
                     return res.send("invalid")
           }
-          const salt = await hash.genSaltSync(10)
+          const salt = await hash.genSaltSync(11)
           const encryptpass = await hash.hashSync(password,salt)
           const newuser = new user({
                     name,
