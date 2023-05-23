@@ -9,9 +9,12 @@ const cookie = require('cookie-parser')
 
 
 
+{
+          (areaprofiles.list.length!==0) && 
+        }
 
 
-
+<span><img src={img} alt="loading" /> subhidha</span>
 
 
 
