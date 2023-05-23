@@ -80,6 +80,10 @@ router.post('/login',async(req,res)=>{
 
 })
 
+router.get('/',(req,res)=>{
+          res.send('dkkd')
+})
+
 //logout user
 router.post('/logout',async(req,res)=>{
           const cookie = await req.cookies.logtoken
