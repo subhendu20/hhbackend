@@ -11,7 +11,7 @@ const hash = require('bcryptjs')
 const JWT = require('jsonwebtoken')
 
 router.use(cors( {
-          origin: 'http://localhost:3000',
+          origin: ['http://localhost:3000','https://helping-hand-erak.onrender.com'],
           methods: ['POST', 'PUT', 'GET','DELETE','OPTIONS', 'HEAD'],
           credentials: true
 }))
