@@ -20,7 +20,7 @@ app.use('/events',routeevent)
 mongoose.connect(process.env.DB).then((e)=>{
           console.log("connected to database")
 }).catch((e)=>{
-          console.log(e)
+          console.log("n")
 })
 
 
